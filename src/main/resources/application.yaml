@@ -1,0 +1,5 @@
+spring:
+  application:
+    name: jwt-authentication-svc
+  config:
+    import: "optional:configserver:http://localhost:8089"
